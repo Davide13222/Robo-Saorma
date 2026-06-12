@@ -1,4 +1,4 @@
-# 🍕 Robo-Saorma — Website
+# 🤖🌯 Robo-Saorma — Website
 
 Proiect web realizat în cadrul cursului de **HTML & CSS** la Universitatea Transilvania din Brașov (UNITBV).
 
