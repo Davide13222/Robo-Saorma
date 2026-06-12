@@ -3,51 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Robo-Șaorma</title>
+  <title>Robo-Șaorma | Proaspăt · Rapid · Savuros</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <nav>
-    <div class="logo">Robo-Șaorma</div>
-    <a href="#meniu">Meniu</a>
+    <div class="logo">Robo-<span>Șaorma</span></div>
+    <div class="nav-links">
+      <a href="index.html">Acasă</a>
+      <a href="index.html#meniu">Meniu</a>
+      <a href="despre.html">Despre</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="contact.html">Contact</a>
+    </div>
   </nav>
 
-  <header>
-    <h1>Robo-Șaorma</h1>
-    <p>Proaspăt · Rapid · Savuros</p>
-    <p>Orar: 10:00 – 23:00</p>
+  <header class="main-header">
+    <div class="hero-content">
+      <h1>Cea mai bună șaorma din viitor</h1>
+      <p>Proaspăt · Rapid · Savuros</p>
+      <a href="#meniu" class="btn">Vezi Meniul</a>
+    </div>
   </header>
 
-  
-    <h2>Meniu</h2>
-    <div class="item">
-      <span>Șaorma Pui</span>
-      <span>25 RON</span>
+  <section id="meniu" class="container sec-meniu">
+    <h2>Meniul Nostru</h2>
+    <div class="meniu-lista">
+      <div class="item">
+        <span class="nume">Șaorma Pui</span>
+        <span class="pret">25 RON</span>
+      </div>
+      <div class="item">
+        <span class="nume">Șaorma Vită</span>
+        <span class="pret">30 RON</span>
+      </div>
+      <div class="item">
+        <span class="nume">Șaorma XXL</span>
+        <span class="pret">40 RON</span>
+      </div>
+      <div class="item">
+        <span class="nume">Wrap Veggie</span>
+        <span class="pret">22 RON</span>
+      </div>
+      <div class="item">
+        <span class="nume">Meniu Complet <small>(șaormă + cartofi + băutură)</small></span>
+        <span class="pret">38 RON</span>
+      </div>
+      <div class="item">
+        <span class="nume">Băuturi</span>
+        <span class="pret">7–12 RON</span>
+      </div>
     </div>
-    <div class="item">
-      <span>Șaorma Vită</span>
-      <span>30 RON</span>
-    </div>
-    <div class="item">
-      <span>Șaorma XXL</span>
-      <span>40 RON</span>
-    </div>
-    <div class="item">
-      <span>Wrap Veggie</span>
-      <span>22 RON</span>
-    </div>
-    <div class="item">
-      <span>Meniu Complet (șaormă + cartofi + băutură)</span>
-      <span>38 RON</span>
-    </div>
-    <div class="item">
-      <span>Băuturi</span>
-      <span>7–12 RON</span>
-    </div>
+  </section>
 
   <footer>
-    📍 Str. Exemplu, Nr. 1  📞 0700 000 000
+    <p>© 2026 Robo-Șaorma. Toate drepturile rezervate. | 📍 Str. Exemplu, Nr. 1 | 📞 0700 000 000</p>
   </footer>
 
 </body>
